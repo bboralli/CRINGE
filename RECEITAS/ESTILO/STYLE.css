@@ -1,0 +1,170 @@
+@charset "utf-8";
+
+/*ESTILOS GLOBAIS*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.botao_card{
+    background-color: #252622;
+    border: none;
+}
+
+.botao_card:hover{
+    background-color: #000000;
+
+}
+
+.img_card{
+    border-radius: 6%;
+}
+
+/* CABEÇALHO E MENU */
+
+.cabecalho{
+    background-color: #F2F2F2;
+}
+
+.logotipo{
+    width:100px;
+    height:100px;
+}
+
+/* CORPO */
+body{
+    background-color: #F2F2F2;
+}
+
+.titulo-principal{
+    margin: 1% 0;
+    font-size: 2.8em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.texto-apresentacao{
+    margin: 1% 0;
+    font-size: 1.2em;
+}
+
+/* RECEITA */
+
+.card_receita{
+    margin: 15px;
+    padding: 1rem;
+    border-radius: 2rem 0.5rem;
+    transition: 1s;
+    width: 18rem;
+    height: 32rem;
+    position: relative;
+}
+
+.card-text{
+    overflow: auto;
+    font-size: 0.9em;
+    height: 8rem;
+    padding: 5% 0;
+}
+
+/* ESTILO MODAL RECEITA*/
+
+
+
+.ingredientes{
+    padding: 10% 2%;
+}
+
+.ingredientes > h6{
+    margin-bottom: 10%;
+}
+
+.titulo-h6{
+    background-color: #F2F2F2;
+    padding: 2%;
+    border: 1px solid #a3a1a1;
+}
+
+.modo-de-preparo{
+    padding: 5% 2%;
+    border-bottom: 1px solid #a3a1a1;
+}
+
+.passo-a-passo{
+    padding: 15% 2%;
+}
+
+.icon-text-passo-passo{
+    color: orangered;
+    font-size: 1.4em;
+}
+
+.text-header{
+    padding: 10% 2%;
+    color: orangered;
+    font-weight: bold;
+    font-size: 1.0em;
+    text-align: justify;
+}
+
+.modo-de-preparo > p{
+    text-align: justify;
+}
+
+.derreta_o_chocolate a{
+    color: orangered;
+    font-weight: bold;
+    text-decoration: none;    
+}
+
+.derreta_o_chocolate a:hover{
+    color: rgb(202, 54, 0);
+}
+
+.calda{
+    color: orangered;
+    border-bottom: 1px solid black;
+    width: 11%;
+}
+
+.rodape-modal a{
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+/* FORMULARIO */
+
+.sucesso{
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 8%;
+    color: green;
+}
+
+.sucesso a{
+    text-decoration: none;
+    color: orangered;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 10%;
+}
+
+.sucesso a:hover{
+    color: rgb(206, 55, 0);
+}
+
+.icon_h1{
+    color: green;
+}
+
+
+
+
+
+
+
+/* RODAPÉ */
+footer{
+    background-color: #f2f2f2;
+    color: #000000;
+}

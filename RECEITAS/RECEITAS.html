@@ -1,0 +1,1345 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chef em Casa - Receitas</title>
+
+    <!-- Estilos Bootstrap -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Estilos Locais -->
+    <link rel="stylesheet" href="Estilos/style.css">
+
+    <!-- SCRIPT BOOTSTRAP-->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+    <!-- ICONS BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+
+    <header class="p-3 mb-3 border-bottom cabecalho"> <!--INICIO CABEÇALHO-->
+        
+        <nav class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start menu"> <!--INICIO NAV/MENU -->
+            <a href="#" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none" > <!-- INICIO LOGO -->
+                <img class="bi me-2" src="Imagens/Logo_Cheff_em_Casa.png" alt="Logo_chefe-em-casa" width="100px" height="100px">
+            </a> <!-- FIM LOGO -->
+            
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 menu_ul"> <!-- INICIO MENU -->
+                <li>
+                    <a href="home.html" class="nav-link px-2 link-body-emphasis menu-li">Home</a>
+                </li>
+                
+                <li>
+                    <a href="receitas.html" class="nav-link px-2 link-secondary menu-li">Receitas</a>
+                </li>
+
+                <li>
+                    <a href="cadastro.html" class="nav-link px-2 link-body-emphasis menu-li">Cadastro</a>
+                </li>
+                
+            </ul> <!-- FIM MENU -->
+        </nav> <!--FIM NAV/MENU -->
+
+    </header> <!--FIM CABEÇALHO -->
+
+    <main>
+        <section class="container"> <!-- Inicio Seção Doces -->
+          
+            <div class="row display">
+
+                <h2 class="border-bottom">Doces</h2>
+               
+                <!-- Inicio Card 1 - Palha Italiana de Oreo -->
+                <div class="card card_receita">
+                    <img src="Imagens/palha-italiana-ninho-sandradias.png" class="card-img-top img_card" alt="mousse de maracujá">
+                    <div class="card-body"><!--card-body-->
+                        <h5 class="card-title">
+                            Palha Italiana de Ninho
+                        </h5>
+                        <p class="card-text">
+                            A Palha Italiana Invertida com Leite Ninho é uma variação deliciosa e criativa da tradicional Palha Italiana. Ela combina o sabor do oreo com a suavidade e doçura do leite em pó, resultando em um doce irresistível. Aqui está uma receita simples para preparar esta delícia:
+                        </p>
+                        <button type="button" class="btn btn-primary botao_card" data-bs-toggle="modal" data-bs-target="#JanelaModal-card1">
+                            Leia Mais...
+                        </button>
+
+                        <div id="JanelaModal-card1" class="modal">
+
+                            <div class="modal-dialog modal-dialog-scrollable">
+
+                                <div class="modal-content corpo-modal">
+
+                                    <div class="modal-header">
+                                        <h3>Palha Italiana Invertida com Leite ninho</h3>
+                                        <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+
+                                    <div class="modal-body">
+                                        <div class="container row">
+
+                                            <div class="ingredientes border-bottom">
+                                                <h6 class="titulo-h6"><i class="bi bi-box-seam"></i> Ingredientes(12 porções)</h6>
+                                                
+                                                <div class="container row col-12">
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-leite-condensado.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>2 caixas de leite condensado</p>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-bolacha_oreo.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>2 pacotes de biscoito Oreo</p>
+                                                    </div>
+                                                </div>
+                                                <div class="container row">
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-leite_ninho.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>8 colheres de sopa de Leite Ninho</p>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="modo-de-preparo">
+                                                <div class="header row">
+
+                                                    <div class="col-md-8">
+                                                        <i class="bi bi-hourglass-split col-md-6 text-header">
+                                                            <span> Modo de preparo: 20min</span>
+                                                        </i>
+                                                    </div>
+
+                                                    <div class="col-md-4">
+                                                        <i class="bi bi-alarm col-md-1 text-header"> 
+                                                            <span>Espera: </span>
+                                                        </i>
+                                                    </div>
+                                                </div>
+
+                                                <div class="passo-a-passo" style="padding-bottom: 5%;">
+                                                    <p class="border-bottom">
+                                                        <i class="bi bi-1-circle icon-text-passo-passo"></i> 
+                                                        Misture o leite condensado e o Leite Ninho.
+                                                    </p>
+
+                                                    <p class="border-bottom" style="padding-bottom: 5%;">
+                                                        <i class="bi bi-2-circle icon-text-passo-passo"></i>
+                                                        Leve ao fogo baixo e mexa até desgrudar da panela, mas não deixe chegar a ponto de brigadeiro para não ficar muito duro.
+                                                    </p>
+
+                                                    <p class="border-bottom" style="padding-bottom: 5%;">
+                                                        <i class="bi bi-3-circle icon-text-passo-passo"></i>
+                                                        Desligue o fogo, quebre os biscoitos (com o recheio) bruscamente e junte a massa.
+                                                    </p>
+                                                    
+                                                    <p class="border-bottom" style="padding-bottom: 5%;">
+                                                        <i class="bi bi-4-circle icon-text-passo-passo"></i>
+                                                        Transfira a massa para um pirex ou tabuleiro untado com margarina e deixe esfriar.
+                                                    </p>
+
+                                                    <p class="border-bottom" style="padding-bottom: 5%;">
+                                                        <i class="bi bi-5-circle icon-text-passo-passo"></i>
+                                                        Corte em quadradinhos e envolva-os com Leite Ninho.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+
+                                    <div class="modal-footer rodape-modal">
+                                        
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" title="Fechar">
+                                            Fechar
+                                        </button>
+
+                                        <button type="button" class="btn btn-primary">
+                                            <a href="https://www.tudogostoso.com.br/receita/299938-palha-italiana-invertida-com-leite-ninho.html" 
+                                            target="_blank" rel="external" title="Site Tudo Gostoso">
+                                                Fonte
+                                            </a>
+                                        </button>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div> <!--Fim Card-body-->
+                </div><!--Fim row card-->
+                <!-- Fim Card 1 -->
+
+                <!-- Inicio Card 2 - Mousse de Chocolate -->
+                <div class="card card_receita">
+                    <img src="Imagens/mousse_de_chocolate.png" class="card-img-top img_card" alt="mousse de chocolate" 
+                         title="Mousse de Chocolate - Google">
+                    <div class="card-body"><!--card-body-->
+                        <h5 class="card-title">
+                            Mousse de Chocolate
+                        </h5>
+                        <p class="card-text">
+                            A Mousse de Chocolate é uma sobremesa clássica e sofisticada que encanta paladares exigentes. Ela combina a intensidade do chocolate com a suavidade e leveza da textura aerada, resultando em uma experiência gastronômica verdadeiramente deliciosa.
+                        </p>
+                        <button type="button" class="btn btn-primary botao_card" data-bs-toggle="modal" data-bs-target="#JanelaModal-card2">
+                            Leia Mais...
+                        </button>
+
+                        <div id="JanelaModal-card2" class="modal">
+
+                            <div class="modal-dialog modal-dialog-scrollable">
+
+                                <div class="modal-content corpo-modal">
+
+                                    <div class="modal-header">
+                                        <h3>Mousse de Chocolate</h3>
+                                        <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+
+                                    <div class="modal-body">
+                                        <div class="container row">
+
+                                            <div class="ingredientes border-bottom">
+                                                <h6 class="titulo-h6">Ingredientes(10 porções)</h6>
+                                                
+                                                <div class="container row col-12">
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-ovo.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>03 ovos</p>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-chocolate.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>200 g de chocolate meio amargo</p>
+                                                    </div>
+                                                </div>
+                                                <div class="container row">
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-açucar.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>02 colheres (sopa) de açucar</p>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-creme_de_leite.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>01 lata de creme de leite</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="modo-de-preparo">
+                                                <div class="header row">
+
+                                                    <div class="col-md-8">
+                                                        <i class="bi bi-hourglass-split col-md-6 text-header">
+                                                            <span> Modo de preparo: 20min</span>
+                                                        </i>
+                                                    </div>
+
+                                                    <div class="col-md-4">
+                                                        <i class="bi bi-alarm col-md-1 text-header"> 
+                                                            <span>Espera:</span>
+                                                        </i>
+                                                    </div>
+                                                </div>
+
+                                                <div class="passo-a-passo">
+                                                    <p class="border-bottom">
+                                                        <i class="bi bi-1-circle icon-text-passo-passo"></i> 
+                                                        Bata as gemas até dobrarem de volume.
+                                                    </p>
+                                                    <p class="border-bottom">
+                                                        <i class="bi bi-2-circle icon-text-passo-passo"></i> 
+                                                        Junte o açúcar e continue batendo.
+                                                    </p>
+                                                    <p class="border-bottom">
+                                                        <i class="bi bi-3-circle icon-text-passo-passo"></i> 
+                                                        <span class="derreta_o_chocolate">
+                                                            <a href="https://www.tudogostoso.com.br/noticias/como-derreter-chocolate-em-banho-maria-a4887.htm" target="_blank" rel="external" title="Site Tudo Gostoso">
+                                                                Derreta o chocolate
+                                                            </a>
+                                                        </span> e acrescente à gemada.
+                                                    </p>
+                                                    <p class="border-bottom">
+                                                        <i class="bi bi-4-circle icon-text-passo-passo"></i> 
+                                                        Junte o creme de leite, batendo sempre
+                                                    </p>
+                                                    <p class="border-bottom">
+                                                        <i class="bi bi-5-circle icon-text-passo-passo"></i> 
+                                                        Por fim, acrescente as claras em neve (bem batidas mesmo), misturando rapidamente na batedeira.
+                                                    </p>
+                                                    <p class="border-bottom">
+                                                        <i class="bi bi-6-circle icon-text-passo-passo"></i> 
+                                                        Leve à geladeira e sirva-se, deliciando o melhor mousse e mais simples de fazer!
+                                                    </p>
+
+                                                    
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+
+                                    <div class="modal-footer rodape-modal">
+                                        
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" title="Fechar">
+                                            Fechar
+                                        </button>
+
+                                        <button type="button" class="btn btn-primary">
+                                            <a href="https://www.tudogostoso.com.br/receita/2513-mousse-de-chocolate.html" 
+                                            target="_blank" rel="external" title="Site Tudo Gostoso">
+                                                Fonte
+                                            </a>
+                                        </button>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div> <!--Fim Card-body-->
+                </div><!--Fim row card-->
+                <!-- Fim Card 2 -->
+
+                <!-- Inicio Card 3 - Mousse de Maracujá -->
+                <div class="card card_receita">
+                    <img src="Imagens/receita-de-mousse-de-maracuja-facil-e-pratica.png" class="card-img-top img_card" alt="mousse de maracujá">
+                    <div class="card-body"><!--card-body-->
+                        <h5 class="card-title">
+                            Mousse de Maracujá
+                        </h5>
+                        <p class="card-text">
+                            Bora aprender como fazer mousse de maracujá? Esse é um doce difícil de recusar e fácil de amar pra sempre!
+                        </p>
+                        <button type="button" class="btn btn-primary botao_card" data-bs-toggle="modal" data-bs-target="#JanelaModal-card3">
+                            Leia Mais...
+                        </button>
+
+                        <div id="JanelaModal-card3" class="modal">
+
+                            <div class="modal-dialog modal-dialog-scrollable">
+
+                                <div class="modal-content corpo-modal">
+
+                                    <div class="modal-header">
+                                        <h3>Mousse de Maracujá</h3>
+                                        <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+
+                                    <div class="modal-body">
+                                        <div class="container row">
+
+                                            <div class="ingredientes border-bottom">
+                                                <h6 class="titulo-h6">Ingredientes(6 porções)</h6>
+                                                
+                                                <div class="container row col-12">
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-leite-condensado.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>1 lata de leite condensado</p>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-suco_maracuja.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>1 lata de suco de maracujá</p>
+                                                    </div>
+                                                </div>
+                                                <div class="container row">
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-creme_de_leite.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-5">
+                                                        <p>1 lata de creme de leite sem soro</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="modo-de-preparo">
+                                                <div class="header row">
+
+                                                    <div class="col-md-8">
+                                                        <i class="bi bi-hourglass-split col-md-6 text-header">
+                                                            <span> Modo de preparo: 5min</span>
+                                                        </i>
+                                                    </div>
+
+                                                    <div class="col-md-4">
+                                                        <i class="bi bi-alarm col-md-1 text-header"> 
+                                                            <span>Espera: 4h</span>
+                                                        </i>
+                                                    </div>
+                                                </div>
+
+                                                <div class="passo-a-passo">
+                                                    <p>
+                                                        <i class="bi bi-1-circle icon-text-passo-passo"></i> 
+                                                        Em um liquidificador, bata o creme de leite, o leite condensado e o suco concentrado de maracujá.
+                                                    </p>
+
+                                                    <p>
+                                                        <i class="bi bi-2-circle icon-text-passo-passo"></i> 
+                                                        Em uma tigela, despeje a mistura e leve à geladeira por, no mínimo, 4 horas.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+
+                                    <div class="modal-footer rodape-modal">
+                                        
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" title="Fechar">
+                                            Fechar
+                                        </button>
+
+                                        <button type="button" class="btn btn-primary">
+                                            <a href="https://www.tudogostoso.com.br/receita/1599-mousse-de-maracuja.html" 
+                                            target="_blank" rel="external" title="Site Tudo Gostoso">
+                                                Fonte
+                                            </a>
+                                        </button>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div> <!--Fim Card-body-->
+                </div><!--Fim row card-->
+                <!-- Fim Card 3 -->
+
+                <!-- Inicio Card 4 - Pudim de Geladeira -->
+                <div class="card card_receita">
+                    <img src="Imagens/pudim.png" class="card-img-top img_card" alt="pudim_de_geladeira">
+                    <div class="card-body"><!--card-body-->
+                        <h5 class="card-title">
+                            Pudim de geladeira
+                        </h5>
+                        <p class="card-text">
+                            O pudim de geladeira, também conhecido como pudim sem forno, é muito fácil de fazer! Otimo para quem deseja saborear um pudim delicioso
+                        </p>
+                        <button type="button" class="btn btn-primary botao_card" data-bs-toggle="modal" data-bs-target="#JanelaModal-card4">
+                            Leia Mais...
+                        </button>
+
+                        <div id="JanelaModal-card4" class="modal">
+
+                            <div class="modal-dialog modal-dialog-scrollable">
+
+                                <div class="modal-content corpo-modal">
+
+                                    <div class="modal-header">
+                                        <h3>Pudim de Geladeira</h3>
+                                        <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+
+                                    <div class="modal-body">
+                                        <div class="container row">
+
+                                            <div class="ingredientes border-bottom">
+                                                <h6 class="titulo-h6">Ingredientes(12 porções)</h6>
+                                                
+                                                <div class="container row col-12">
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-leite-condensado.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>1 lata de leite condensado</p>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-creme_de_leite.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>1 lata de creme de leite</p>
+                                                    </div>
+                                                </div>
+                                                <div class="container row">
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-leite.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>1 lata de leite (use a medida da lata de leite condensado)</p>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-gelatina-sem-sabor.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>1 gelatina sem sabor</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="ingredientes border-bottom">
+                                                <h5>Calda</h5>
+                                                
+                                                <div class="row col-12 ingredientes">
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-açucar.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>2 xícaras de açucar</p>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-agua.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>1 xícara de água</p>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+
+                                            <div class="modo-de-preparo">
+                                                <div class="header row">
+
+                                                    <div class="col-md-8">
+                                                        <i class="bi bi-hourglass-split col-md-6 text-header">
+                                                            <span> Modo de preparo: 1h</span>
+                                                        </i>
+                                                    </div>
+
+                                                    <div class="col-md-4">
+                                                        <i class="bi bi-alarm col-md-1 text-header"> 
+                                                            <span>Espera: 2h</span>
+                                                        </i>
+                                                    </div>
+                                                </div>
+
+                                                <div class="passo-a-passo">
+                                                    <p class="border-bottom">
+                                                        <i class="bi bi-1-circle icon-text-passo-passo"></i> 
+                                                        Dissolva a gelatina sem sabor de acordo com as instruções do fabricante.
+                                                    </p>
+
+                                                    <p class="border-bottom">
+                                                        <i class="bi bi-2-circle icon-text-passo-passo"></i> 
+                                                        Bata no liquidificador todos os ingredientes até obter uma massa lisa e homogênea.
+                                                    </p>
+
+                                                    <h6 class="calda">Calda</h6>
+                                                    <p class="border-bottom">
+                                                        <i class="bi bi-3-circle icon-text-passo-passo"></i> 
+                                                        Coloque o açúcar em uma forma redonda com fundo central e leve ao fogo até caramelizar.
+                                                    </p>
+
+                                                    <p class="border-bottom">
+                                                        <i class="bi bi-4-circle icon-text-passo-passo"></i> 
+                                                        Despeje o líquido na forma e leve à geladeira até que fique bem firme.
+                                                    </p>
+
+                                                    <p class="border-bottom">
+                                                        <i class="bi bi-5-circle icon-text-passo-passo"></i> 
+                                                        Desenforme e sirva.
+                                                    </p>
+
+                                                    
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+
+                                    <div class="modal-footer rodape-modal">
+                                        
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" title="Fechar">
+                                            Fechar
+                                        </button>
+
+                                        <button type="button" class="btn btn-primary">
+                                            <a href="https://www.tudogostoso.com.br/receita/114553-pudim-de-geladeira-igual-ao-pudim-de-forno.html" 
+                                            target="_blank" rel="external" title="Site Tudo Gostoso">
+                                                Fonte
+                                            </a>
+                                        </button>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div> <!--Fim Card-body-->
+                </div><!--Fim row card-->
+                <!-- Fim Card 4 -->
+
+            </div>
+
+        </section> <!-- Fim Seção Doces -->
+
+        <section class="container"> <!-- Inicio Seção Salgados -->
+          
+            <div class="row display">
+
+                <h2 class="border-bottom">Salgados</h2>
+               
+                <!-- Inicio Card 5 - Maionese de Legumes -->
+                <div class="card card_receita">
+                    <img src="Imagens/Maionese de legumes.png" class="card-img-top img_card" alt="maionese_de_legumes" title="Maionese de Legumes">
+                    <div class="card-body"><!--card-body-->
+                        <h5 class="card-title">
+                            Maionese de legumes
+                        </h5>
+                        <p class="card-text">
+                            A maionese de legumes é um acompanhamento delicioso e refrescante para um churrasco, pois combina perfeitamente com carnes grelhadas e outros pratos do churrasco.
+                        </p>
+                        <button type="button" class="btn btn-primary botao_card" data-bs-toggle="modal" data-bs-target="#JanelaModal-card5">
+                            Leia Mais...
+                        </button>
+
+                        <div id="JanelaModal-card5" class="modal">
+
+                            <div class="modal-dialog modal-dialog-scrollable">
+
+                                <div class="modal-content corpo-modal">
+
+                                    <div class="modal-header">
+                                        <h3>Maionese de Legumes</h3>
+                                        <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+
+                                    <div class="modal-body ">
+                                        <div class="container row">
+
+                                            <div class="ingredientes border-bottom">
+                                                <h6 class="titulo-h6"><i class="bi bi-box-seam"></i> Ingredientes(10 porções)</h6>
+                                                
+                                                <div class="container row">
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-sem-imagem.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>1 kg de batatas cortadas em cubos pequenos</p>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-sem-imagem.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>3 cenouras médias cortadas em cubos pequenos</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="container row">
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-sem-imagem.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>1 punhado de vagem cortada grosseiramente</p>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-ervilha.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>1 lata de ervilhas em conserva</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="container row">
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-milho.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>1 lata de milho em conserva</p>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-ovo.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>3 Ovos</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="container row">
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-azeitona.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>1/2 xícara de azeitonas verdes picadas</p>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-cebola.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>1 cebola ralada</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="container row">
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-alho.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>3 dentes de alho picados</p>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-sem-imagem.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>1/2 maço salsinha picadinha</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="container row">
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-limao.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>1 limão</p>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-azeite.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>3 colheres de sopa de azeite</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="container row">
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-maionese.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>1 pote de maionese de 500 g</p>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-creme_de_leite.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>1/2 lata de creme de leite</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="container row">
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-queijo-ralado.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>1/2 pacote de queijo ralado</p>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-sem-imagem.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>1 envelope de tempero pronto a sua escolha</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="container row">
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-sem-imagem.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>1 maçã pequena cortada em cubos
+                                                        </p>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-sem-imagem.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>sal e pimenta a gosto</p>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="modo-de-preparo">
+                                                <div class="header row">
+
+                                                    <div class="col-md-8">
+                                                        <i class="bi bi-hourglass-split col-md-6 text-header">
+                                                            <span> Modo de preparo: 40min</span>
+                                                        </i>
+                                                    </div>
+
+                                                    <div class="col-md-4">
+                                                        <i class="bi bi-alarm col-md-1 text-header"> 
+                                                            <span>Espera: </span>
+                                                        </i>
+                                                    </div>
+                                                </div>
+
+                                                <div class="passo-a-passo"">
+                                                    <p class="border-bottom">
+                                                        <i class="bi bi-1-circle icon-text-passo-passo"></i> 
+                                                        Corte os legumes em cubos (batatas, cenoura e vagem) e coloque-os na panela de pressão e cubra com água, cozinhe em fogo baixo até que fiquem tenros (mas não totalmente cozidos).
+                                                    </p>
+
+                                                    <p class="border-bottom" style="padding-bottom: 5%;">
+                                                        <i class="bi bi-2-circle icon-text-passo-passo"></i>
+                                                        O tempo na panela de pressão varia, mas normalmente eu conto 20 minutos e depois e vou adicionando mais tempo até chegar ao ponto que eu quero.
+                                                    </p>
+
+                                                    <p class="border-bottom" style="padding-bottom: 5%;">
+                                                        <i class="bi bi-3-circle icon-text-passo-passo"></i>
+                                                        Cozinhe os ovos, descasque-os e pique grosseiramente e reserve.
+                                                    </p>
+                                                    
+                                                    <p class="border-bottom" style="padding-bottom: 5%;">
+                                                        <i class="bi bi-4-circle icon-text-passo-passo"></i>
+                                                        Depois que os legumes estiverem cozidos, drene a água e deixe-os esfriar.
+                                                    </p>
+
+                                                    <p class="border-bottom" style="padding-bottom: 5%;">
+                                                        <i class="bi bi-5-circle icon-text-passo-passo"></i>
+                                                        Em uma tigela, misture a cebola, alho, limão, azeite, sal, pimenta, salsinha e o tempero pronto.
+                                                    </p>
+
+                                                    <p class="border-bottom" style="padding-bottom: 5%;">
+                                                        <i class="bi bi-6-circle icon-text-passo-passo"></i>
+                                                        Misture tudo com um batedor e junte os legumes cozidos, azeitonas, milho, ervilha e a maçã.
+                                                    </p>
+
+                                                    <p class="border-bottom" style="padding-bottom: 5%;">
+                                                        <i class="bi bi-7-circle icon-text-passo-passo"></i>
+                                                        Misture tudo cuidadosamente e se necessário corrija o sal.
+                                                    </p>
+
+                                                    <p class="border-bottom" style="padding-bottom: 5%;">
+                                                        <i class="bi bi-8-circle icon-text-passo-passo"></i>
+                                                        Por último adicione a maionese e o creme de leite.
+                                                    </p>
+
+                                                    <p class="border-bottom" style="padding-bottom: 5%;">
+                                                        <i class="bi bi-9-circle icon-text-passo-passo"></i>
+                                                        Coloque em um refratário, cubra com um pouco mais de maionese e salpique com queijo ralado.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+
+                                    <div class="modal-footer rodape-modal">
+                                        
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" title="Fechar">
+                                            Fechar
+                                        </button>
+
+                                        <button type="button" class="btn btn-primary">
+                                            <a href="https://www.tudogostoso.com.br/receita/85486-maionese-de-legumes-para-churrasco.html" 
+                                            target="_blank" rel="external" title="Site Tudo Gostoso">
+                                                Fonte
+                                            </a>
+                                        </button>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div> <!--Fim Card-body-->
+                </div><!--Fim row card-->
+                <!-- Fim Card 5 -->
+
+                <!-- Inicio Card 6 - Espetinho Misto -->
+                <div class="card card_receita">
+                    <img src="Imagens/Espetinho_Misto.png" class="card-img-top img_card" alt="Espetinho misto"
+                         title="Espetinho Misto">
+                    <div class="card-body"><!--card-body-->
+                        <h5 class="card-title">
+                            Espetinho Misto
+                        </h5>
+                        <p class="card-text">
+                            O espetinho misto é uma escolha clássica e deliciosa para qualquer churrasco. Ele combina diferentes tipos de carnes e vegetais, proporcionando uma variedade de sabores e texturas que agradam a todos os paladares.
+
+
+                        </p>
+                        <button type="button" class="btn btn-primary botao_card" data-bs-toggle="modal" data-bs-target="#JanelaModal-card6">
+                            Leia Mais...
+                        </button>
+
+                        <div id="JanelaModal-card6" class="modal">
+
+                            <div class="modal-dialog modal-dialog-scrollable">
+
+                                <div class="modal-content corpo-modal">
+
+                                    <div class="modal-header">
+                                        <h3>Espetinho Misto</h3>
+                                        <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+
+                                    <div class="modal-body">
+                                        <div class="container row">
+
+                                            <div class="ingredientes border-bottom">
+                                                <h6 class="titulo-h6">Ingredientes(20 porções)</h6>
+                                                
+                                                <div class="container row col-12">
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-alcatra.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>½ kg alcatra</p>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-lombo-suino.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>½ kg de lombo suíno</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="container row">
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-coracao-de-frango.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>1 kg de coração de frango</p>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-file-frango.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>1 kg de filé frango</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="container row">
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-linguica-calabresa.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>1 pacote de calabresa fininha</p>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-bacon-em-fatias.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>1 pacote de bacon em fatias</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="container row">
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-cebola.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>1 cebola</p>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-pimentao-amarelo.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>1 pimentão amarelo</p>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="modo-de-preparo">
+                                                <div class="header row">
+
+                                                    <div class="col-md-8">
+                                                        <i class="bi bi-hourglass-split col-md-6 text-header">
+                                                            <span> Modo de preparo: 2h</span>
+                                                        </i>
+                                                    </div>
+
+                                                    <div class="col-md-4">
+                                                        <i class="bi bi-alarm col-md-1 text-header"> 
+                                                            <span>Espera:</span>
+                                                        </i>
+                                                    </div>
+                                                </div>
+
+                                                <div class="passo-a-passo">
+
+                                                    <p class="border-bottom">
+                                                        <i class="bi bi-1-circle icon-text-passo-passo"></i> 
+                                                        Corte as carnes, frango e calabresa em cubos e tempere a seu gosto, deixe curtir bem o tempero, antes de espetar as carnes envolva a carne suína no bacon para fazer um medalhão e espete.
+                                                    </p>
+                                                    <p class="border-bottom">
+                                                        <i class="bi bi-2-circle icon-text-passo-passo"></i> 
+                                                        Depois coloque um pedaço de cada tipo para fazer seu espetinho misto, sempre intercalando com um pedaço de cebola e pimentão para dar aquele toque especial que fica uma delícia.
+                                                    </p>
+                                                    <p class="border-bottom">
+                                                        <i class="bi bi-3-circle icon-text-passo-passo"></i> 
+                                                        Depois e só assar na brasa ou em uma churrasqueira elétrica tipo a minha que está na foto.
+                                                    </p>
+                                                                                                        
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+
+                                    <div class="modal-footer rodape-modal">
+                                        
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" title="Fechar">
+                                            Fechar
+                                        </button>
+
+                                        <button type="button" class="btn btn-primary">
+                                            <a href="https://www.tudogostoso.com.br/receita/2513-mousse-de-chocolate.html" 
+                                            target="_blank" rel="external" title="Site Tudo Gostoso">
+                                                Fonte
+                                            </a>
+                                        </button>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div> <!--Fim Card-body-->
+                </div><!--Fim row card-->
+                <!-- Fim Card 6 -->
+
+                <!-- Inicio Card 7 - Pão de Alho-->
+                <div class="card card_receita">
+                    <img src="Imagens/pao_de_alho.png" class="card-img-top img_card" alt="pão de alho" title="Pão de Alho">
+                    <div class="card-body"><!--card-body-->
+                        <h5 class="card-title">
+                            Pão de Alho
+                        </h5>
+                        <p class="card-text">
+                            O pão de alho para churrasco é um acompanhamento delicioso que faz sucesso entre os amantes de um bom churrasco. Essa receita é uma maneira saborosa de aproveitar aqueles pães franceses que já estão mais durinhos, transformando-os em algo irresistível.
+                        </p>
+                        <button type="button" class="btn btn-primary botao_card" data-bs-toggle="modal" data-bs-target="#JanelaModal-card7">
+                            Leia Mais...
+                        </button>
+
+                        <div id="JanelaModal-card7" class="modal">
+
+                            <div class="modal-dialog modal-dialog-scrollable">
+
+                                <div class="modal-content corpo-modal">
+
+                                    <div class="modal-header">
+                                        <h3>Pão de alho</h3>
+                                        <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+
+                                    <div class="modal-body">
+                                        <div class="container row">
+
+                                            <div class="ingredientes border-bottom">
+                                                <h6 class="titulo-h6">Ingredientes(6 porções)</h6>
+                                                
+                                                <div class="container row col-12">
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-pao-frances.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>6 pães franceses (médios)</p>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-maionese.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>1 vidro pequeno de maionese</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="container row">
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-alho.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>2 colheres de sopa de alho picadinho</p>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-oregano.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>1 colher de sopa não muito cheia de orégano</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="container row">
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-cheiro-verde.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>1/2 xícara de chá de cheiro-verde picado</p>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-parmesao.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>1/2 xícara de chá de parmesão ralado</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="container row">
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-sal.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>sal a gosto</p>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-sem-imagem.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>pimenta a gosto</p>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="modo-de-preparo">
+                                                <div class="header row">
+
+                                                    <div class="col-md-8">
+                                                        <i class="bi bi-hourglass-split col-md-6 text-header">
+                                                            <span> Modo de preparo: 10min</span>
+                                                        </i>
+                                                    </div>
+
+                                                    <div class="col-md-4">
+                                                        <i class="bi bi-alarm col-md-1 text-header"> 
+                                                            <span>Preparo: 10min</span>
+                                                        </i>
+                                                    </div>
+                                                </div>
+
+                                                <div class="passo-a-passo">
+                                                    <p>
+                                                        <i class="bi bi-1-circle icon-text-passo-passo"></i> 
+                                                        Em um recipiente misture a maionese, o alho, o orégano, o cheiro-verde, o sal e a pimenta e reserve.
+                                                    </p>
+
+                                                    <p>
+                                                        <i class="bi bi-2-circle icon-text-passo-passo"></i> 
+                                                        Faça cortes horizontais no pão francês de maneira a formar pequenas fatias (mais ou menos 4), mas sem desprendê-las umas das outras (como no pão de alho comprado).
+                                                    </p>
+
+                                                    <p>
+                                                        <i class="bi bi-3-circle icon-text-passo-passo"></i> 
+                                                        Passe a mistura reservada entre as fatias e depois envolvendo todo os pães.
+                                                    </p>
+
+                                                    <p>
+                                                        <i class="bi bi-4-circle icon-text-passo-passo"></i> 
+                                                        Polvilhe sobre os pães o parmesão ralado.
+                                                    </p>
+
+                                                    <p>
+                                                        <i class="bi bi-5-circle icon-text-passo-passo"></i> 
+                                                        Leve à churrasqueira e asse bem de ambos os lados.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+
+                                    <div class="modal-footer rodape-modal">
+                                        
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" title="Fechar">
+                                            Fechar
+                                        </button>
+
+                                        <button type="button" class="btn btn-primary">
+                                            <a href="https://www.tudogostoso.com.br/receita/109170-pao-de-alho-para-churrasco-com-pao-frances-amanhecido.html" 
+                                            target="_blank" rel="external" title="Site Tudo Gostoso">
+                                                Fonte
+                                            </a>
+                                        </button>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div> <!--Fim Card-body-->
+                </div><!--Fim row card-->
+                <!-- Fim Card 7 -->
+
+                <!-- Inicio Card 8 - Picanha Invertida -->
+                <div class="card card_receita">
+                    <img src="Imagens/picanha_invertida.png" class="card-img-top img_card" alt="Picanha Invertida" title="Picanha Invertida">
+                    <div class="card-body"><!--card-body-->
+                        <h5 class="card-title">
+                            Picanha Invertida
+                        </h5>
+                        <p class="card-text">
+                            A Picanha Invertida é uma variação intrigante do clássico corte de carne brasileiro, perfeita para quem deseja surpreender os convidados com uma apresentação única e um sabor excepcional!
+                        </p>
+                        <button type="button" class="btn btn-primary botao_card" data-bs-toggle="modal" data-bs-target="#JanelaModal-card8">
+                            Leia Mais...
+                        </button>
+
+                        <div id="JanelaModal-card8" class="modal">
+
+                            <div class="modal-dialog modal-dialog-scrollable">
+
+                                <div class="modal-content corpo-modal">
+
+                                    <div class="modal-header">
+                                        <h3>Picanha Invertida</h3>
+                                        <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+
+                                    <div class="modal-body">
+                                        <div class="container row">
+
+                                            <div class="ingredientes border-bottom">
+                                                <h6 class="titulo-h6">Ingredientes(5 porções)</h6>
+                                                
+                                                <div class="container row col-12">
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-sem-imagem.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>1 picanha de cerca de 1,5 kg</p>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-provolone.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>400 g de provolone</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="container row">
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-bacon-em-fatias.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>100 g de bacon</p>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-oregano.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>Orégano</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="container row">
+                                                    <div class="col-md-2">
+                                                        <img src="Imagens/icons/icon-sal-grosso.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p>Sal grosso</p>
+                                                    </div>
+                                                </div>
+                                            </div>                                        
+
+                                            <div class="modo-de-preparo">
+                                                <div class="header row">
+
+                                                    <div class="col-md-8">
+                                                        <i class="bi bi-hourglass-split col-md-6 text-header">
+                                                            <span> Modo de preparo: 1h 30min</span>
+                                                        </i>
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="passo-a-passo">
+                                                    <p class="border-bottom">
+                                                        <i class="bi bi-1-circle icon-text-passo-passo"></i> 
+                                                        Fure a picanha no sentido diagonal, deixando 1,5 cm nas laterais.
+                                                    </p>
+
+                                                    <p class="border-bottom">
+                                                        <i class="bi bi-2-circle icon-text-passo-passo"></i> 
+                                                        Vire a ponta para dentro, deixando no avesso, cuidado no corte para não atravessar as laterais de um lado ao outro.
+                                                    </p>
+                                                    
+                                                    <p class="border-bottom">
+                                                        <i class="bi bi-3-circle icon-text-passo-passo"></i> 
+                                                        Recheie com o provolone picado temperado com orégano e o bacon, também picado.
+                                                    </p>
+
+                                                    <p class="border-bottom">
+                                                        <i class="bi bi-4-circle icon-text-passo-passo"></i> 
+                                                        Feche as aberturas com palitos.
+                                                    </p>
+
+                                                    <p class="border-bottom">
+                                                        <i class="bi bi-5-circle icon-text-passo-passo"></i> 
+                                                        Salgue com o sal grosso.
+                                                    </p>
+
+                                                    <p class="border-bottom">
+                                                        <i class="bi bi-6-circle icon-text-passo-passo"></i> 
+                                                        Coloque no forno a 200ºC em uma assadeira untada ou se preferir leve para churrasqueira.
+                                                    </p>
+
+                                                    <p class="border-bottom">
+                                                        <i class="bi bi-7-circle icon-text-passo-passo"></i> 
+                                                        Deixe assar a seu gosto, virando de 15 em 15 minutos.
+                                                    </p>
+                                                    
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+
+                                    <div class="modal-footer rodape-modal">
+                                        
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" title="Fechar">
+                                            Fechar
+                                        </button>
+
+                                        <button type="button" class="btn btn-primary">
+                                            <a href="https://www.tudogostoso.com.br/receita/114553-pudim-de-geladeira-igual-ao-pudim-de-forno.html" 
+                                            target="_blank" rel="external" title="Site Tudo Gostoso">
+                                                Fonte
+                                            </a>
+                                        </button>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div> <!--Fim Card-body-->
+                </div><!--Fim row card-->
+                <!-- Fim Card 8 -->
+
+           </div>
+
+        </section> <!-- Fim Seção Salgados -->
+    </main>
+  
+    <footer class="py-5 text-center text-body-sucess bg-body-sucess rodape">
+        
+        <p>&copy; 2024 Chef em Casa. Todos os direitos reservados.</p>
+        
+        <p class="mb-0">
+            <a href="#">Voltar ao TOPO</a>
+        </p>
+
+     </footer>
+</body>
+</html>

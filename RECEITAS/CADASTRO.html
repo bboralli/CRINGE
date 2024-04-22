@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chef em Casa - Cadastro</title>
+
+    <!-- Estilos Bootstrap -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Estilos Locais -->
+    <link rel="stylesheet" href="Estilos/style.css">
+
+    <!-- SCRIPT BOOTSTRAP-->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+    <!-- ICONS BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+
+    <header class="p-3 mb-3 border-bottom cabecalho"> <!--INICIO CABEÇALHO-->
+        
+        <nav class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start menu"> <!--INICIO NAV/MENU -->
+            <a href="#" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none" > <!-- INICIO LOGO -->
+                <img class="bi me-2 logotipo" src="Imagens/Logo_Cheff_em_Casa.png" alt="Logo_chefe-em-casa" width="100px" height="100px">
+            </a> <!-- FIM LOGO -->
+            
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 menu_ul"> <!-- INICIO MENU -->
+                <li>
+                    <a href="home.html" class="nav-link px-2 link-body-emphasis menu-li">Home</a>
+                </li>
+                
+                <li>
+                    <a href="receitas.html" class="nav-link px-2 link-body-emphasis menu-li">Receitas</a>
+                </li>
+
+                <li>
+                    <a href="cadastro.html" class="nav-link px-2 link-secondary menu-li">Cadastro</a>
+                </li>
+                
+            </ul> <!-- FIM MENU -->
+        </nav> <!--FIM NAV/MENU -->
+
+    </header> <!--FIM CABEÇALHO -->
+
+    <main>
+
+        <div class="container">
+            <form action="https://formsubmit.co/silva.alyssongomes28@gmail.com" method="post" enctype="multipart/form-data" class="row g-4 body_formulario" id="formulario" style="background-color: #F2F2F2;">
+              <input type="hidden" name="_next" value="https://alygomes28.github.io/Cheff_em_casa-03/sucesso.html">
+              <div class="col-md-5">
+                <label for="inputName" class="form-label">Nome</label>
+                <input type="text" name="Nome" class="form-control" id="inputName" required>
+              </div>
+              <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">Email</label>
+                  <input type="email" name="E-mail" placeholder="Email Address" class="form-control" id="inputEmail4" required>
+                </div>
+                <div class="col-5">
+                  <label for="inputAddress" class="form-label">Endereço</label>
+                  <input type="text" name="Endereço" class="form-control" id="inputAddress" placeholder="Rua dos Loucos" required>
+                </div>
+                <div class="col-2">
+                    <label for="inputAddress2" class="form-label">Número</label>
+                    <input type="text" name="Número" class="form-control" id="inputAddress2" placeholder="0000" required>
+                  </div>
+                <div class="col-4">
+                  <label for="inputAddress3" class="form-label">Complemento</label>
+                  <input type="text" name="Complemento" class="form-control" id="inputAddress3" placeholder="Apartamento, comercio, etc...">
+                </div>
+                <div class="col-md-3">
+                    <label for="inputbairro" class="form-label">Bairro</label>
+                    <input type="text" name="Bairro" class="form-control" id="inputbairro" required>
+                  </div>
+                <div class="col-md-3">
+                  <label for="inputCity" class="form-label">Cidade</label>
+                  <input type="text" name="Cidade" class="form-control" id="inputCity" required>
+                </div>
+                <div class="col-md-3">
+                  <label for="inputState" class="form-label">Estado</label>
+                  <select id="inputState" name="Estado" class="form-select" required>
+                    <option selected>Escolha...</option>
+                    <option>Alagoas (AL)</option>
+                    <option>Amapá (AP)</option>
+                    <option>Amazonas (AM)</option>
+                    <option>Bahia (BA)</option>
+                    <option>Ceará (CE)</option>
+                    <option>Distrito Federal (DF)</option>
+                    <option>Espírito Santo (ES)</option>
+                    <option>Goiás (GO)</option>
+                    <option>Maranhão (MA)</option>
+                    <option>Mato Grosso (MT)</option>
+                    <option>Mato Grosso do Sul (MS)</option>
+                    <option>Minas Gerais (MG)</option>
+                    <option>Pará (PA)</option>
+                    <option>Paraíba (PB)</option>
+                    <option>Paraná (PR)</option>
+                    <option>Pernambuco (PE)</option>
+                    <option>Piauí (PI)</option>
+                    <option>Rio de Janeiro (RJ)</option>
+                    <option>Rio Grande do Norte (RN)</option>
+                    <option>Rio Grande do Sul (RS)</option>
+                    <option>Rondônia (RO)</option>
+                    <option>Roraima (RR)</option>
+                    <option>Santa Catarina (SC)</option>
+                    <option>São Paulo (SP)</option>
+                    <option>Sergipe (SE)</option>
+                    <option>Tocantins (TO)</option>
+                  </select>
+                </div>
+                <div class="col-md-2">
+                  <label for="inputZip" class="form-label">CEP</label>
+                  <input type="text" name="Cep" class="form-control" id="inputZip" required>
+                </div>
+                <div class="col-12">
+            
+                </div>
+            
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary"
+                  style="background-color: #BF2C1F; border: 1px solid #BF2C1F;">Enviar</button>
+                </div>
+              </form>
+        </div>
+     </main>
+  
+    <footer class="py-5 text-center text-body-sucess bg-body-sucess rodape">
+        
+        <p>&copy; 2024 Chef em Casa. Todos os direitos reservados.</p>
+        
+        <p class="mb-0">
+            <a href="#">Voltar ao TOPO</a>
+        </p>
+
+     </footer>
+</body>
+</html>
